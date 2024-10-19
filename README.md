@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Frontend em React
 
-## Getting Started
+Este é o frontend de uma aplicação desenvolvida com React, utilizando Node.js como ambiente de desenvolvimento. O projeto faz requisições à API backend com o auxílio do Axios e utiliza o PrimeReact para componentes de UI.
 
-Sakai is an application template for Next.js based on the popular Next.js framework with new App Router. 
+## Tecnologias Utilizadas
 
-First, run the development server:
+- **Node.js**
+- **React**
+- **PrimeReact**
+- **Axios**
+- **JavaScript (ES6+)**
+- **CSS** (ou qualquer pré-processador que você esteja usando)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Interface de usuário interativa e responsiva.
+- Autenticação de usuários com integração à API backend.
+- Visualização e gerenciamento de dados utilizando componentes do PrimeReact.
 
-## Integration with Existing Next.js Applications
+## Pré-requisitos
 
-Only the folders related to the layout need to be moved into your project. Integration of pages involves moving the files under those folders. Make sure that the using page is defined under the related group layout.
+- Node.js instalado.
+- NPM ou Yarn.
 
-## Learn More
+## Instalação
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Clone o repositório:
+   ```bash
+   git clone https://seu-repositorio.git
+   cd seu-repositorio
